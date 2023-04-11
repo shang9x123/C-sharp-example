@@ -1,0 +1,17 @@
+D:\C SHARP\DEMO DOWNLOAD\Docvavietfile\Docvavietfile\bin\Debug\net6.0-windows\Docvavietfile.exe
+D:\C SHARP\DEMO DOWNLOAD\Docvavietfile\Docvavietfile\bin\Debug\net6.0-windows\Docvavietfile.deps.json
+D:\C SHARP\DEMO DOWNLOAD\Docvavietfile\Docvavietfile\bin\Debug\net6.0-windows\Docvavietfile.runtimeconfig.json
+D:\C SHARP\DEMO DOWNLOAD\Docvavietfile\Docvavietfile\bin\Debug\net6.0-windows\Docvavietfile.dll
+D:\C SHARP\DEMO DOWNLOAD\Docvavietfile\Docvavietfile\bin\Debug\net6.0-windows\Docvavietfile.pdb
+D:\C SHARP\DEMO DOWNLOAD\Docvavietfile\Docvavietfile\obj\Debug\net6.0-windows\Docvavietfile.csproj.AssemblyReference.cache
+D:\C SHARP\DEMO DOWNLOAD\Docvavietfile\Docvavietfile\obj\Debug\net6.0-windows\Docvavietfile.Form1.resources
+D:\C SHARP\DEMO DOWNLOAD\Docvavietfile\Docvavietfile\obj\Debug\net6.0-windows\Docvavietfile.csproj.GenerateResource.cache
+D:\C SHARP\DEMO DOWNLOAD\Docvavietfile\Docvavietfile\obj\Debug\net6.0-windows\Docvavietfile.GeneratedMSBuildEditorConfig.editorconfig
+D:\C SHARP\DEMO DOWNLOAD\Docvavietfile\Docvavietfile\obj\Debug\net6.0-windows\Docvavietfile.AssemblyInfoInputs.cache
+D:\C SHARP\DEMO DOWNLOAD\Docvavietfile\Docvavietfile\obj\Debug\net6.0-windows\Docvavietfile.AssemblyInfo.cs
+D:\C SHARP\DEMO DOWNLOAD\Docvavietfile\Docvavietfile\obj\Debug\net6.0-windows\Docvavietfile.csproj.CoreCompileInputs.cache
+D:\C SHARP\DEMO DOWNLOAD\Docvavietfile\Docvavietfile\obj\Debug\net6.0-windows\Docvavietfile.dll
+D:\C SHARP\DEMO DOWNLOAD\Docvavietfile\Docvavietfile\obj\Debug\net6.0-windows\refint\Docvavietfile.dll
+D:\C SHARP\DEMO DOWNLOAD\Docvavietfile\Docvavietfile\obj\Debug\net6.0-windows\Docvavietfile.pdb
+D:\C SHARP\DEMO DOWNLOAD\Docvavietfile\Docvavietfile\obj\Debug\net6.0-windows\Docvavietfile.genruntimeconfig.cache
+D:\C SHARP\DEMO DOWNLOAD\Docvavietfile\Docvavietfile\obj\Debug\net6.0-windows\ref\Docvavietfile.dll
