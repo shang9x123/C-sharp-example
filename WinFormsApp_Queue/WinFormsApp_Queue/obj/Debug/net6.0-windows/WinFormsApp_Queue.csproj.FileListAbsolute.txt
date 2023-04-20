@@ -1,0 +1,17 @@
+D:\C SHARP\WinFormsApp_Queue\WinFormsApp_Queue\bin\Debug\net6.0-windows\WinFormsApp_Queue.exe
+D:\C SHARP\WinFormsApp_Queue\WinFormsApp_Queue\bin\Debug\net6.0-windows\WinFormsApp_Queue.deps.json
+D:\C SHARP\WinFormsApp_Queue\WinFormsApp_Queue\bin\Debug\net6.0-windows\WinFormsApp_Queue.runtimeconfig.json
+D:\C SHARP\WinFormsApp_Queue\WinFormsApp_Queue\bin\Debug\net6.0-windows\WinFormsApp_Queue.dll
+D:\C SHARP\WinFormsApp_Queue\WinFormsApp_Queue\bin\Debug\net6.0-windows\WinFormsApp_Queue.pdb
+D:\C SHARP\WinFormsApp_Queue\WinFormsApp_Queue\obj\Debug\net6.0-windows\WinFormsApp_Queue.csproj.AssemblyReference.cache
+D:\C SHARP\WinFormsApp_Queue\WinFormsApp_Queue\obj\Debug\net6.0-windows\WinFormsApp_Queue.Form1.resources
+D:\C SHARP\WinFormsApp_Queue\WinFormsApp_Queue\obj\Debug\net6.0-windows\WinFormsApp_Queue.csproj.GenerateResource.cache
+D:\C SHARP\WinFormsApp_Queue\WinFormsApp_Queue\obj\Debug\net6.0-windows\WinFormsApp_Queue.GeneratedMSBuildEditorConfig.editorconfig
+D:\C SHARP\WinFormsApp_Queue\WinFormsApp_Queue\obj\Debug\net6.0-windows\WinFormsApp_Queue.AssemblyInfoInputs.cache
+D:\C SHARP\WinFormsApp_Queue\WinFormsApp_Queue\obj\Debug\net6.0-windows\WinFormsApp_Queue.AssemblyInfo.cs
+D:\C SHARP\WinFormsApp_Queue\WinFormsApp_Queue\obj\Debug\net6.0-windows\WinFormsApp_Queue.csproj.CoreCompileInputs.cache
+D:\C SHARP\WinFormsApp_Queue\WinFormsApp_Queue\obj\Debug\net6.0-windows\WinFormsApp_Queue.dll
+D:\C SHARP\WinFormsApp_Queue\WinFormsApp_Queue\obj\Debug\net6.0-windows\refint\WinFormsApp_Queue.dll
+D:\C SHARP\WinFormsApp_Queue\WinFormsApp_Queue\obj\Debug\net6.0-windows\WinFormsApp_Queue.pdb
+D:\C SHARP\WinFormsApp_Queue\WinFormsApp_Queue\obj\Debug\net6.0-windows\WinFormsApp_Queue.genruntimeconfig.cache
+D:\C SHARP\WinFormsApp_Queue\WinFormsApp_Queue\obj\Debug\net6.0-windows\ref\WinFormsApp_Queue.dll
