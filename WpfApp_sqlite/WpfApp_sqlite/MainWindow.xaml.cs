@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
@@ -21,13 +23,31 @@ namespace WpfApp_sqlite
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : Window, INotifyPropertyChanged
     {
         public My_database my_Database = new My_database();
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected virtual void onPropertyChanged(string propertyName)
+        {
+            if(PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
+
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = this;
 
+            List<Profile> list = new List<Profile>();   
+            list = my_Database.Loaddata("profile");
+            /*
+            listview.ItemsSource= list;
+            CollectionView collectionView = (CollectionView)CollectionViewSource.GetDefaultView(listview.ItemsSource);
+            collectionView.Refresh();
+            */
         }
 
         private void create_database_Click(object sender, RoutedEventArgs e)
@@ -65,6 +85,7 @@ namespace WpfApp_sqlite
         {
             int result = my_Database.Delete_data("anhhienbadao@gmail.com");
             Debug.WriteLine(result);
+           
         }
 
         private void xoa_ban_ghi1_Click(object sender, RoutedEventArgs e)

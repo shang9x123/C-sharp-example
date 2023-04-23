@@ -11,8 +11,8 @@ namespace WpfApp_sqlite.Database
 {
     public class My_database
     {
-        private static string path = "database.sqlite";
-        private SQLiteConnection con = new SQLiteConnection(@"Data Source= "+ path);
+        public static string path = "database.sqlite";
+        public SQLiteConnection con = new SQLiteConnection(@"Data Source= "+ path);
         public void Create_datatable()
         {
             // tạo datatabse 
@@ -91,18 +91,19 @@ namespace WpfApp_sqlite.Database
             List<Profile> list = new List<Profile>();
                 while (data_return.Read())
                 {
-                    Debug.WriteLine(data_return.ToString());
+                    Debug.WriteLine(data_return);
                     Profile profile = new Profile();
+               
                     profile.Email = data_return.GetString(0);
-                    profile.Password = data_return.GetString(1);
-                    /*
-                    profile.Emailkhoiphuc = data_return.GetString(2);
-                    profile.UserAgent = data_return.GetString(3);
-                    profile.Proxy = data_return.GetString(4);
-                    profile.Sodienthoai = data_return.GetString(5);
-                    */
-                    list.Add(profile);
+                   profile.Password = data_return.GetString(1);
+                   profile.Emailkhoiphuc = data_return.GetString(2);
+                   profile.UserAgent = data_return.GetString(3);
+                   profile.Proxy = data_return.GetString(4);
+                   profile.Sodienthoai = data_return.GetString(5);
+                  
+                list.Add(profile);
                 }
+                con.Close();
             return list;
         }
         public int Update_data(string table,string var_update ,string email)

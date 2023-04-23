@@ -19,6 +19,7 @@
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
                 <Button x:Name="create_database" Content="Tao database" Grid.Column="0" Grid.Row="0" Click="create_database_Click"></Button>
                 <Button x:Name="create_table" Content="Tao table" Grid.Column="1" Grid.Row="0" Click="create_table_Click"></Button>
@@ -26,6 +27,18 @@
                 <Button x:Name="doc_ban_ghi3" Content="Đọc bản ghi" Grid.Column="1" Grid.Row="1" Click="doc_ban_ghi_Click"></Button>
                 <Button x:Name="xoa_ban_ghi2" Content="Xóa bản ghi" Grid.Column="1" Grid.Row="2" Click="xoa_ban_ghi_Click"></Button>
                 <Button x:Name="xoa_ban_ghi1" Content="Update bản ghi" Grid.Column="0" Grid.Row="2" Click="xoa_ban_ghi1_Click" ></Button>
+
+                
+            </Grid>
+            <Grid x:Name="gridlistview">
+                <ListView x:Name="listview">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Email" Width="400px" DisplayMemberBinding="{Binding Email}"></GridViewColumn>
+                            <GridViewColumn Header="Password" Width="400px" DisplayMemberBinding="{Binding Password}"></GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
             </Grid>
         </StackPanel>
     </Grid>
